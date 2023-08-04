@@ -1,0 +1,101 @@
+/* Write your CSS here */
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  background-color: #ffffff;
+  height: 90vh;
+  width: 60vw;
+  box-shadow: 0px 4px 16px 4px #bfbfbf;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #150b3e;
+  height: 80vh;
+  width: 40vw;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button {
+  background-color: #c7d2fe;
+  height: 80px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #7c3aed;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+.name {
+  color: #c7d2fe;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.starting-balance {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: bold;
+  color: #c7d2fe;
+}
+
+.rupees {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #585076;
+  font-weight: 500;
+}
+
+.withdraw {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #c7d2fe;
+}
+
+.choose-sum {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 22px;
+}
+
+.notes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

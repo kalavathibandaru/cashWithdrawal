@@ -1,0 +1,17 @@
+/* Write your CSS here */
+
+.list-container {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.note {
+  font-family: 'Roboto';
+  padding: 5px;
+  min-width: 200px;
+  border-radius: 5px;
+  background-color: #585076;
+  color: #c4c4c4;
+  font-weight: 500;
+  font-size: 25px;
+}
